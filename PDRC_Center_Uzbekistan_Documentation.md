@@ -2,7 +2,7 @@
 ## Full Technical Blueprint
 
 > **Sana:** 2026-03-22  
-> **GitHub:** https://github.com/iqtisodiyot01-ops/pdrc-center-uzbekistan  
+> **GitHub:** https://github.com/bluecore-dev/pdrc-center-uzbekistan  
 > **Sayt:** https://pdrcenteruzbekistan.com  
 > **Tavsif:** Paintless Dent Repair (PDR) asboblari va xizmatlarini sotuvchi e-commerce sayt. O'zbekiston uchun to'liq mahsulot katalogi, buyurtma tizimi, kurs ro'yxatdan o'tish, xizmat bronlash, Telegram bildirishnomalar va to'liq admin panel.
 
@@ -1356,7 +1356,7 @@ Agar yangi muhitda loyihani qayta qurish kerak bo'lsa:
 
 ```bash
 # 1. Repository klonlash
-git clone https://github.com/iqtisodiyot01-ops/pdrc-center-uzbekistan
+git clone https://github.com/bluecore-dev/pdrc-center-uzbekistan
 
 # 2. Paketlarni o'rnatish
 pnpm install
@@ -1392,4 +1392,4 @@ pnpm --filter @workspace/pdrc-website run dev  # Frontend: port 18940
 ---
 
 *Hujjat muallifi: Loyiha arxitektori | Sana: 2026-03-22*
-*GitHub: https://github.com/iqtisodiyot01-ops/pdrc-center-uzbekistan*
+*GitHub: https://github.com/bluecore-dev/pdrc-center-uzbekistan*
