@@ -472,7 +472,7 @@ updated_at TIMESTAMP NOT NULL DEFAULT NOW()
 {
   "name": "Jasur Toshmatov",
   "email": "jasur@example.com",
-  "password": "password123",
+  "password": "<parol>",
   "phone": "+998901234567"
 }
 ```
@@ -494,7 +494,7 @@ updated_at TIMESTAMP NOT NULL DEFAULT NOW()
 #### `POST /api/auth/login` — Kirish
 **Kirish:**
 ```json
-{ "email": "admin@pdrcenteruzbekistan.com", "password": "admin123" }
+{ "email": "admin@pdrcenteruzbekistan.com", "password": "<parol>" }
 ```
 **Chiqish (200 OK):**
 ```json
@@ -529,7 +529,7 @@ updated_at TIMESTAMP NOT NULL DEFAULT NOW()
 #### `PUT /api/auth/change-password` — Parol o'zgartirish `[AUTH]`
 **Kirish:**
 ```json
-{ "currentPassword": "oldpass123", "newPassword": "newpass456" }
+{ "currentPassword": "<eski parol>", "newPassword": "<yangi parol>" }
 ```
 
 #### `POST /api/auth/logout` — Chiqish `[AUTH]`
@@ -801,7 +801,7 @@ Qo'llab-quvvatlanadigan metodlar:
 {
   "name": "Omonjon",
   "email": "omonjon@example.com",
-  "password": "pass123",
+  "password": "<parol>",
   "phone": "+998901234567",
   "role": "admin",
   "permissions": {
@@ -924,7 +924,7 @@ Qo'llab-quvvatlanadigan metodlar:
 ## 7. ADMIN PANEL TUZILMASI
 
 ### Kirish: `/admin`
-- **Superadmin:** admin@pdrcenteruzbekistan.com / admin123
+- **Superadmin:** seed skripti orqali yaratiladi; parol repoda saqlanmaydi.
 - **Admin (DB):** Anvarov1170@gmail.com (id=3, role=admin)
 
 ### Rol Tizimi
